@@ -1,0 +1,75 @@
+body {
+    color: #78290F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 15px;
+    background-image: url(https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: unset;
+    border-width: 3px;
+    text-shadow: 2pt 4pt 8pt #78290F;
+    border-radius: 5px;
+
+}
+
+h1 {
+    background-color: #15616D;
+    background-origin: content-box;
+    text-align:center;
+    border: 3px outset #001524;
+    color: #FF7D00;
+    text-shadow:  3pt 2pt 4pt black;
+    text-indent: 18px;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 5px;
+    width: 400px;
+  
+}
+
+.typeBtn {
+    background-color: #15616D;
+    border:3px ridge #001524;
+    color: #FF7D00;
+    text-shadow:  3pt 2pt 4pt rgb(13, 12, 12);
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+.typeBtn:hover {
+    background-color: #78290F;
+    border-style: unset;
+    border-width: 3px;
+    border-radius: 5px;
+    color: white;
+    text-shadow:  3pt 2pt 4pt #001524;
+    
+}
+
+.typeBtn:active {
+    background-color:aquamarine;
+    border-style: outset;
+    border-width: 3px;
+    color: white;
+    text-shadow:  3pt 2pt 4pt #001524;
+
+}
+
+#result {
+    padding:  4px;
+    background-color: darkseagreen;
+    font-style: italic;
+    background : no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align:end;
+}
